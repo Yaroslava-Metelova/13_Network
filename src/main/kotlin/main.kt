@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 
     val log = Logger.getLogger(catFactsDataCollection?.javaClass?.name)
     log.info(catFactsDataCollection.toString())
-
+    //boxwood
 }
 
 fun requestDataFrom(baseUrl: String): Joke? {
