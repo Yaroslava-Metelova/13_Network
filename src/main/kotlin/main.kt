@@ -42,6 +42,7 @@ fun requestDataFrom(baseUrl: String): Joke? {
     })
 
     while (dataReturn == null) {
+
         println("uploading data...")
         Thread.sleep(300)
     }
